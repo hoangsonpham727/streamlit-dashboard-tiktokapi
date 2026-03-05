@@ -1,141 +1,173 @@
 import requests
 import csv
 import os
+import time
+from dotenv import load_dotenv
 
-      
+load_dotenv()
 
-#Get the number of tabs in the main shopping page
-def get_tab_list(user_id):
-    base_url = "https://tiktok-shop2.p.rapidapi.com/api/v1/shop/products/"
-    url = base_url + str(user_id) + "/tab_list"
+class TiktokShopApi:
+    def __init__(self, x_rapidapi_key: str):
+        self.x_rapidapi_key = x_rapidapi_key
+        self.host = 'tiktok-shop-us-api.p.rapidapi.com'
+        self.base_url = 'https://tiktok-shop-us-api.p.rapidapi.com'
+        self.headers = {
+            'x-rapidapi-host': self.host,
+            'x-rapidapi-key': self.x_rapidapi_key
+        }
 
-    querystring = {"region":"VN"}
+    def _request(self, url: str, params=None):
+        try:
+            res = requests.get(url, headers=self.headers, params=params)
+            print(f'Status Code: {res.status_code}')
 
-    #API host info
-    headers = {
-	"X-RapidAPI-Key": "API KEY",
-	"X-RapidAPI-Host": "tiktok-shop2.p.rapidapi.com"
-    }
+            res.raise_for_status()
 
-    #get the data in the format of json
-    response = requests.get(url, headers=headers, params=querystring)
-    data = response.json()
-    return len(data["data"]["tab_list"])
+            if not res.text or not res.text.strip():
+                print(f'Empty response body for URL: {url}')
+                return {}
 
-#Collect user data
-def get_user_data(user_id, num):
-    
-    base_url = "https://tiktok-shop2.p.rapidapi.com/api/v1/shop/products/"
-    url = base_url + str(user_id) + "/detail_page"
-   
+            return res.json()
 
-    
-    querystring = {"tab_id":num,"region":"VN","count":"10","offset":"0"}
+        except requests.exceptions.HTTPError as e:
+            print(f'HTTP Error: {e} | URL: {url}')
+            return {}
+        except requests.exceptions.ConnectionError as e:
+            print(f'Connection Error: {e}')
+            return {}
+        except requests.exceptions.Timeout as e:
+            print(f'Timeout Error: {e}')
+            return {}
+        except requests.exceptions.JSONDecodeError as e:
+            print(f'JSON Decode Error: {e}')
+            return {}
 
-    headers = { "X-RapidAPI-Key": "API KEY",
-	                "X-RapidAPI-Host": "tiktok-shop2.p.rapidapi.com"}
+    def search_products(
+        self,
+        keyword: str,
+        page: int = 1
+    ):
+        url = f'{self.base_url}/api/search'
+        params = {
+            'q': keyword,
+            'page': str(page)
+        }
+        return self._request(url, params)
 
 
-    response = requests.get(url, headers=headers, params=querystring)
-    if response.status_code == 200:
-            data = response.json()
-            
-            return data.get("data", {}).get("product_list", {})
-    else:
-            return None, None, None, None
-
-#Write user data to a csv file
-def write_to_csv(filename, data):
-    with open(filename, "a", newline="", encoding="utf-8") as csvfile:
-        fieldnames = ["Product_ID", "Product Name", "Sold Count", "Price"]
+# Write search results to CSV based on new API response structure
+def write_search_results_to_csv(filename, products):
+    fieldnames = [
+        'product_id', 'title', 'brand', 'image', 'url',
+        'currency', 'price', 'original_price', 'discount',
+        'sold', 'rating', 'reviews',
+        'seller_id', 'shop_name', 'slug',
+        'search_query', 'search_page', 'found_at'
+    ]
+    file_exists = os.path.exists(filename)
+    with open(filename, 'a', newline='', encoding='utf-8') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
-        
-        if csvfile.tell() == 0:
+        if not file_exists or csvfile.tell() == 0:
             writer.writeheader()
-        for product in data:
-            writer.writerow({"Product_ID": product.get("product_id", ""), "Product Name": product.get("product_name", ""), "Sold Count": product.get("product_sold_count", ""), "Price": product.get("format_available_price", "")})
+        for product in products:
+            writer.writerow({
+                'product_id': product.get('product_id'),
+                'title': product.get('title'),
+                'brand': product.get('brand'),
+                'image': product.get('image'),
+                'url': product.get('url'),
+                'currency': product.get('currency'),
+                'price': product.get('price'),
+                'original_price': product.get('original_price'),
+                'discount': product.get('discount'),
+                'sold': product.get('sold'),
+                'rating': product.get('rating'),
+                'reviews': product.get('reviews'),
+                'seller_id': product.get('seller_id'),
+                'shop_name': product.get('shop_name'),
+                'slug': product.get('slug'),
+                'search_query': product.get('search_query'),
+                'search_page': product.get('search_page'),
+                'found_at': product.get('found_at')
+            })
 
-#Obtain the product id from the first file    
+
+# Read product IDs from CSV
 def read_product_ids_from_csv(file_path):
     product_ids = []
-    with open(file_path, 'r') as csvfile:
+    with open(file_path, 'r', encoding='utf-8') as csvfile:
         csvreader = csv.reader(csvfile)
-        next(csvreader)
+        next(csvreader)  # skip header
         for row in csvreader:
-            # Assuming the product ID is in the first column of each row
-            product_ids.append(row[0])
+            if row:
+                product_ids.append(row[0])
     return product_ids
 
-#Get data about each product
-def get_product_details(product_id):
-    
-    base_url = "https://tiktok-shop2.p.rapidapi.com/api/v1/shop/product/"
-    url = base_url + str(product_id)
 
-    querystring = {"region":"VN"}
-    #API host info
-    headers = {
-	    "X-RapidAPI-Key": "API KEY",
-	    "X-RapidAPI-Host": "tiktok-shop2.p.rapidapi.com"
-    }
+# Search a single keyword across pages
+def _search_keyword(client, keyword, max_pages, output_csv):
+    total = 0
+    print(f'Searching products for keyword: "{keyword}"')
 
-    response = requests.get(url, headers=headers, params=querystring)
-    if response.status_code == 200:
-            data = response.json()
+    for page in range(1, max_pages + 1):
+        print(f'  Fetching page {page}...')
+        res = client.search_products(keyword, page) or {}
 
-            return data["data"]["products"]
-    else:
-          return None
+        if not res.get('success'):
+            print(f'  API returned unsuccessful response on page {page}.')
+            break
 
-#Write the data about the products to a csv file  
-def write_to_file(data):
-    
-    csv_filename = "products.csv"
-    file_exists = os.path.exists(csv_filename)
+        products = res.get('data', {}).get('products') or []
 
-    # Wrte data to CSV
-    with open(csv_filename, 'a', newline='') as csvfile:
-        writer = csv.writer(csvfile)
-        if not file_exists:
-            writer.writerow(["Product_ID", "Stock","SKU","Price_After_Discount", "Rating", "Review_Count"])  # Write header
-            file_exists = True
-        for product in data:
-            row_data = [
-                product["product_id"],
-                product["skus"][0]["stock"],  
-                product["skus"][0]["sku_id"],
-                product["skus"][0]["price"]["real_price"]["price_val"],
-                
-                product["product_detail_review"]["product_rating"],
-                product["product_detail_review"]["review_count"]
-                ]
-            writer.writerow(row_data)
+        if not products:
+            print('  No more products found.')
+            break
+
+        write_search_results_to_csv(output_csv, products)
+        total += len(products)
+        print(f'  Written {total} products so far to {output_csv} (page {page}, {len(products)} products)')
+
+        # Each page returns ~30 products (fixed by the API, no count param available).
+        # Keep paginating until we hit max_pages or the API returns no products.
+        if len(products) < 30:
+            print('  Reached last page (fewer than 30 products returned).')
+            break
+        time.sleep(3)
+
+    print(f'  Done with "{keyword}". Products written: {total}')
+    return total
 
 
-#main function
-def collect_data(user_id):
-    #Get the number of shop pages
-    num = get_tab_list(user_id)
+# Main function: iterate over multiple keywords
+# Increase max_pages to collect more — each page yields ~30 products.
+def collect_data(keywords, api_key, max_pages=10):
+    if not keywords:
+        print('No keywords entered.')
+        return
 
-    if user_id:
-        #Iterate over the pages to get basic data about the user
-        for x in range(1,num+1,1):
-            user_data = get_user_data(user_id, x)
-            if user_data:
-                write_to_csv("tiktok_user_data.csv", user_data)
-                print("Data has been successfully written to 'tiktok_user_data.csv'")
-            else:
-                print(f"Failed to retrieve data for user with ID: {user_id}")
-        #Get data about the products        
-        product_ids = read_product_ids_from_csv("tiktok_user_data.csv")
-        for product_id in product_ids:
-            data = get_product_details(product_id)
-            if product_id:
-                write_to_file(data)
-                print("Data retrieved")
-            else:
-                 print("no data")
-    else:
-        print("No user ID entered.")
+    # Accept a single string or a list
+    if isinstance(keywords, str):
+        keywords = [keywords]
+
+    client = TiktokShopApi(api_key)
+    output_csv = 'tiktok_search_data.csv'
+    grand_total = 0
+
+    for i, keyword in enumerate(keywords):
+        keyword = keyword.strip()
+        if not keyword:
+            continue
+        grand_total += _search_keyword(client, keyword, max_pages, output_csv)
+        if i < len(keywords) - 1:
+            print('Waiting before next keyword...')
+            time.sleep(5)
+
+    print(f'All keywords done. Grand total products written: {grand_total}')
 
 
+if __name__ == '__main__':
+    collect_data(
+        keywords=['wireless earbuds', 'bluetooth speaker', 'iphone case'],
+        api_key=os.getenv("RapidAPIKey"),
+        max_pages=10
+    )

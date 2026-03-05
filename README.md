@@ -1,55 +1,107 @@
-
-# TikTok Data Collection and Analysis Dashboard
+# TikTok Shop Analytics Dashboard
 
 ![Dashboard Preview](images/dashboard.png)
-
+![Dashboard Preview2](images/dashboard2.png)
 ## Project Overview
 
-This project involves collecting data from TikTok using the TikTok API, building an interactive dashboard with Streamlit, and integrating PandasAI for advanced data analysis. The goal is to create a comprehensive tool for analyzing TikTok video metrics, trends, and user engagement.
-
-## Objectives
-
-- **Data Collection:** Retrieve data from TikTok using the TikTok API.
-- **Dashboard Creation:** Build an interactive dashboard using Streamlit to visualize and interact with the collected data.
-- **Advanced Analysis:** Integrate PandasAI to perform advanced analysis on additional data files.
-
-## Key Features
-
-- Collect TikTok video data including video IDs, descriptions, hashtags, view counts, like counts, and more.
-- Interactive dashboard for visualizing and exploring data trends and metrics.
-- Advanced data analysis capabilities using PandasAI.
-
-## Tools and Technologies
-
-- **Python:** Primary programming language used for the project.
-- **TikTok API:** For data collection from TikTok.
-- **Streamlit:** For building the interactive dashboard.
-- **Pandas:** For data manipulation and analysis.
-- **PandasAI:** For advanced data analysis on additional files.
-- **Jupyter Notebook:** For organizing and documenting the analysis process.
-
-
-### Prerequisites
-
-- Python 3.x
-- TikTok API credentials
-
-
-## Results
-
-The results of the analysis will be available through the Streamlit dashboard and detailed reports generated using PandasAI.
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the project's coding standards and includes appropriate tests.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please contact me at sonphamwork7@gmail.com.
+A full-stack data collection and analytics dashboard for TikTok Shop products. Search for any product keyword, collect live data via the TikTok Shop US API, and explore it through an interactive Streamlit dashboard with built-in AI chat analysis powered by PandasAI.
 
 ---
 
+## Features
+
+### 🔍 Data Collection
+- Search TikTok Shop products by one or more keywords
+- Page-based pagination — collect up to ~300 products per keyword (10 pages × 30 products)
+- Data saved automatically to `tiktok_search_data.csv`
+- Configurable number of pages per keyword via the UI
+
+### 📊 Interactive Dashboard
+- **KPI Cards** — Total Products, Total Sold, Avg Rating, Avg Price, Avg Discount
+- **Top Shops by Sold** — ranked table of best-performing sellers
+- **Top Brands by Sold** — horizontal bar chart
+- **Price Distribution** — histogram of product prices
+- **Rating Distribution** — histogram of product ratings
+- **Price vs Sold Scatter** — bubble chart coloured by rating
+- **Biggest Discounts** — table of top discounted products
+- **Sales by Keyword** — compare performance across search terms
+- **Sidebar Filters** — filter by keyword, minimum rating, minimum sold count
+
+### 🤖 AI Chat Analysis
+![Preview](images/chat.png)
+- Upload any CSV or use the collected TikTok dataset
+- Ask natural language questions about your data (e.g. *"What is the best-selling product?"*)
+- Powered by PandasAI v3 + OpenAI GPT
+
+---
+
+## Tools & Technologies
+
+| Tool | Purpose |
+|---|---|
+| Python 3.x | Core language |
+| Streamlit | Interactive dashboard & UI |
+| Requests | TikTok Shop US API calls |
+| Pandas | Data manipulation |
+| Plotly | Charts and visualisations |
+| PandasAI v3 | Natural language data analysis |
+| OpenAI GPT | AI backend for chat |
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Python 3.10+
+- A [RapidAPI](https://rapidapi.com) account subscribed to the **TikTok Shop US API**
+- An OpenAI API key (for the AI chat page)
+
+### Installation
+
+```bash
+git clone https://github.com/your-username/streamlit-dashboard-tiktokapi.git
+cd streamlit-dashboard-tiktokapi
+pip install -r requirements.txt
+```
+
+### Run the App
+
+```bash
+streamlit run main/app.py
+```
+
+---
+
+## Usage
+
+1. Create a new `.env` file and put the RapidAPIKey in it. (You can get the key from [this link](https://tiktok-shop-us-api.p.rapidapi.com) )
+2. Go to the **Home** page
+3. Enter one or more **product keywords** (one per line)
+4. Click **Collect Data** — results are saved to `tiktok_search_data.csv`
+5. Navigate to the **Dashboard** tab to explore the data visually
+6. Navigate to the **Chat** tab to ask AI questions about the data
+
+---
+
+## Project Structure
+
+```
+streamlit-dashboard-tiktokapi/
+├── main/
+│   ├── app.py                  # Entry point
+│   ├── home.py                 # Data collection page
+│   ├── dashboard.py            # Analytics dashboard
+│   ├── chat.py                 # PandasAI chat page
+│   ├── data.py                 # TikTok Shop API client & CSV helpers
+│   └── tiktok_search_data.csv  # Collected data (auto-generated)
+├── images/
+│   └── dashboard.png
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## Contact
+
+For any questions or feedback, please contact [sonphamwork7@gmail.com](mailto:sonphamwork7@gmail.com).

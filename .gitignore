@@ -1,0 +1,10 @@
+
+__pycache__/
+
+#Environment
+venv/
+.env
+
+
+#Datasets
+tiktok_search_data.csv

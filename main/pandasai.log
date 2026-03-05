@@ -1,1 +1,938 @@
 
+2026-03-05 21:53:42 [INFO] Question: Create a graph of top selling products
+2026-03-05 21:53:42 [INFO] Running PandasAI with litellm LLM...
+2026-03-05 21:53:42 [INFO] Prompt ID: 82012966-f4d3-4c34-b4cd-3816aadb4a8f
+2026-03-05 21:53:42 [INFO] Generating new code...
+2026-03-05 21:53:42 [INFO] Using Prompt: <tables>
+
+<table dialect="duckdb" table_name="table_689b7878a48c84ec31beda69620855b7" columns="[{"name": "product_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "title", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "brand", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "image", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "url", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "currency", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "original_price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "discount", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "sold", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "rating", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "reviews", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "seller_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "shop_name", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "slug", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_query", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_page", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "found_at", "type": "string", "description": null, "expression": null, "alias": null}]" dimensions="527x18">
+product_id,title,brand,image,url,currency,price,original_price,discount,sold,rating,reviews,seller_id,shop_name,slug,search_query,search_page,found_at
+1731312906191802630,"HTC NE20 Bluetooth 6.0 Earphones LED Display High Fidelity Waterproof Wireless Earphones | Suitable for Office, Sports, Study and Audio Calls | Built-in Microphone | Earphones",hTC,https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f5188525949c4ad7a6daa9e105d3189d~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/htc-ne20-earphones-bluetooth-5-4-waterproof-led-display/1731312906191802630,$,19.99,68.0,70%,167377,4.3,16379,7495396376762026246,Top Music.Audio,htc-ne20-earphones-bluetooth-5-4-waterproof-led-display,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1731051736301277466,"HYUNDAI Earclip C7 Clip-on Design Wireless Earphones, Upgraded Panoramic Sound Headset, Comfortable Wearing & IPX5 Waterproof Sports Earbuds for Work, Fitness",Hyundai,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/68858de4f95d46d88e988e5cd5d24768~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort/1731051736301277466,$,6.99,,,4908,4.2,554,7495975581302688026,Hyundai Accessory Store,wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1729397279735780001,JLab GO POP+ True Wireless Earbuds with 35+ Hour Playtime Dual Connect IPX4 Sweatproof Fast Charge 10 Minutes for 1+ Hour Playtime Rechargeable Bluetooth 5.3 Headset,JLAB,https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/5255aa5cdf2b45509aa86abfe794e0dd~tplv-fhlh96nyum-crop-webp:4000:4000.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94…,https://www.tiktok.com/shop/pdp/jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect/1729397279735780001,$,19.98,29.99,33%,69033,4.6,13125,7495182113810385569,JLab,jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732277328704934737,"Earbuds In Ear Wireless Bluetooth Headphones Noise Cancelling,Sound Optimization, Redesigned Comfort with Charging Case Fit for Sports Gym Workout",,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2a3934b039ee44fba6edc097fbf31c93~tplv-fhlh96nyum-crop-webp:799:600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof/1732277328704934737,$,39.99,,,0,0.0,0,7495810518815837009,jinguang inc,lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732275322245124413,Q71 TWS  Earphones Bluetooth 5.3 Earbuds Clip on Ear Comfortable Sport Digital Display Headsets,Ankriyul,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/bf3ff231c386433ead9a513b6cf5e542~tplv-fhlh96nyum-crop-webp:1600:1600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=948…,https://www.tiktok.com/shop/pdp/q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready/1732275322245124413,$,7.79,,,65,0.0,0,7495919760941484349,Ankriyul Local,q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+</table>
+
+
+</tables>
+
+The following functions have already been provided. Please use them as needed and do not redefine them.
+<function>
+def execute_sql_query(sql_query: str) -> pd.DataFrame
+    """This method connects to the database, executes the sql query and returns the dataframe"""
+</function>
+
+
+
+Update this initial code:
+```python
+# TODO: import the required dependencies
+import pandas as pd
+
+# Write code here
+
+# Declare result var: 
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+```
+
+
+
+### QUERY
+ Create a graph of top selling products
+
+At the end, declare "result" variable as a dictionary of type and value in the following format:
+
+type (possible values "string", "number", "dataframe", "plot"). Examples: { "type": "string", "value": f"The highest salary is {highest_salary}." } or { "type": "number", "value": 125 } or { "type": "dataframe", "value": pd.DataFrame({...}) } or { "type": "plot", "value": "temp_chart.png" }
+
+
+
+Generate python code and return full updated code:
+
+### Note: Use only relevant table for query and do aggregation, sorting, joins and grouby through sql query
+2026-03-05 21:53:43 [INFO] An error occurred during code generation: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2026-03-05 21:53:43 [INFO] Stack Trace:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:43 [INFO] Execution failed with error: Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:43 [INFO] Using Prompt: <table dialect="duckdb" table_name="table_689b7878a48c84ec31beda69620855b7" columns="[{"name": "product_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "title", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "brand", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "image", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "url", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "currency", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "original_price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "discount", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "sold", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "rating", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "reviews", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "seller_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "shop_name", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "slug", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_query", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_page", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "found_at", "type": "string", "description": null, "expression": null, "alias": null}]" dimensions="527x18">
+product_id,title,brand,image,url,currency,price,original_price,discount,sold,rating,reviews,seller_id,shop_name,slug,search_query,search_page,found_at
+1731312906191802630,"HTC NE20 Bluetooth 6.0 Earphones LED Display High Fidelity Waterproof Wireless Earphones | Suitable for Office, Sports, Study and Audio Calls | Built-in Microphone | Earphones",hTC,https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f5188525949c4ad7a6daa9e105d3189d~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/htc-ne20-earphones-bluetooth-5-4-waterproof-led-display/1731312906191802630,$,19.99,68.0,70%,167377,4.3,16379,7495396376762026246,Top Music.Audio,htc-ne20-earphones-bluetooth-5-4-waterproof-led-display,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1731051736301277466,"HYUNDAI Earclip C7 Clip-on Design Wireless Earphones, Upgraded Panoramic Sound Headset, Comfortable Wearing & IPX5 Waterproof Sports Earbuds for Work, Fitness",Hyundai,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/68858de4f95d46d88e988e5cd5d24768~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort/1731051736301277466,$,6.99,,,4908,4.2,554,7495975581302688026,Hyundai Accessory Store,wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1729397279735780001,JLab GO POP+ True Wireless Earbuds with 35+ Hour Playtime Dual Connect IPX4 Sweatproof Fast Charge 10 Minutes for 1+ Hour Playtime Rechargeable Bluetooth 5.3 Headset,JLAB,https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/5255aa5cdf2b45509aa86abfe794e0dd~tplv-fhlh96nyum-crop-webp:4000:4000.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94…,https://www.tiktok.com/shop/pdp/jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect/1729397279735780001,$,19.98,29.99,33%,69033,4.6,13125,7495182113810385569,JLab,jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732277328704934737,"Earbuds In Ear Wireless Bluetooth Headphones Noise Cancelling,Sound Optimization, Redesigned Comfort with Charging Case Fit for Sports Gym Workout",,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2a3934b039ee44fba6edc097fbf31c93~tplv-fhlh96nyum-crop-webp:799:600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof/1732277328704934737,$,39.99,,,0,0.0,0,7495810518815837009,jinguang inc,lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732275322245124413,Q71 TWS  Earphones Bluetooth 5.3 Earbuds Clip on Ear Comfortable Sport Digital Display Headsets,Ankriyul,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/bf3ff231c386433ead9a513b6cf5e542~tplv-fhlh96nyum-crop-webp:1600:1600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=948…,https://www.tiktok.com/shop/pdp/q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready/1732275322245124413,$,7.79,,,65,0.0,0,7495919760941484349,Ankriyul Local,q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+</table>
+
+
+The following functions have already been provided. Please use them as needed and do not redefine them.
+<function>
+def execute_sql_query(sql_query: str) -> pd.DataFrame
+    """This method connects to the database, executes the sql query and returns the dataframe"""
+</function>
+
+
+The user asked the following question:
+### QUERY
+ Create a graph of top selling products
+
+You generated the following Python code:
+None
+
+However, it resulted in the following error:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+
+Fix the python code above and return the new python code but the code generated should use execute_sql_query function
+2026-03-05 21:53:43 [INFO] An error occurred during code generation: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2026-03-05 21:53:43 [INFO] Stack Trace:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:43 [INFO] Retrying Code Generation (1/3)...
+2026-03-05 21:53:43 [INFO] Execution failed with error: Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:43 [INFO] Using Prompt: <table dialect="duckdb" table_name="table_689b7878a48c84ec31beda69620855b7" columns="[{"name": "product_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "title", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "brand", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "image", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "url", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "currency", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "original_price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "discount", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "sold", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "rating", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "reviews", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "seller_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "shop_name", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "slug", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_query", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_page", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "found_at", "type": "string", "description": null, "expression": null, "alias": null}]" dimensions="527x18">
+product_id,title,brand,image,url,currency,price,original_price,discount,sold,rating,reviews,seller_id,shop_name,slug,search_query,search_page,found_at
+1731312906191802630,"HTC NE20 Bluetooth 6.0 Earphones LED Display High Fidelity Waterproof Wireless Earphones | Suitable for Office, Sports, Study and Audio Calls | Built-in Microphone | Earphones",hTC,https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f5188525949c4ad7a6daa9e105d3189d~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/htc-ne20-earphones-bluetooth-5-4-waterproof-led-display/1731312906191802630,$,19.99,68.0,70%,167377,4.3,16379,7495396376762026246,Top Music.Audio,htc-ne20-earphones-bluetooth-5-4-waterproof-led-display,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1731051736301277466,"HYUNDAI Earclip C7 Clip-on Design Wireless Earphones, Upgraded Panoramic Sound Headset, Comfortable Wearing & IPX5 Waterproof Sports Earbuds for Work, Fitness",Hyundai,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/68858de4f95d46d88e988e5cd5d24768~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort/1731051736301277466,$,6.99,,,4908,4.2,554,7495975581302688026,Hyundai Accessory Store,wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1729397279735780001,JLab GO POP+ True Wireless Earbuds with 35+ Hour Playtime Dual Connect IPX4 Sweatproof Fast Charge 10 Minutes for 1+ Hour Playtime Rechargeable Bluetooth 5.3 Headset,JLAB,https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/5255aa5cdf2b45509aa86abfe794e0dd~tplv-fhlh96nyum-crop-webp:4000:4000.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94…,https://www.tiktok.com/shop/pdp/jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect/1729397279735780001,$,19.98,29.99,33%,69033,4.6,13125,7495182113810385569,JLab,jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732277328704934737,"Earbuds In Ear Wireless Bluetooth Headphones Noise Cancelling,Sound Optimization, Redesigned Comfort with Charging Case Fit for Sports Gym Workout",,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2a3934b039ee44fba6edc097fbf31c93~tplv-fhlh96nyum-crop-webp:799:600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof/1732277328704934737,$,39.99,,,0,0.0,0,7495810518815837009,jinguang inc,lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732275322245124413,Q71 TWS  Earphones Bluetooth 5.3 Earbuds Clip on Ear Comfortable Sport Digital Display Headsets,Ankriyul,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/bf3ff231c386433ead9a513b6cf5e542~tplv-fhlh96nyum-crop-webp:1600:1600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=948…,https://www.tiktok.com/shop/pdp/q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready/1732275322245124413,$,7.79,,,65,0.0,0,7495919760941484349,Ankriyul Local,q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+</table>
+
+
+The following functions have already been provided. Please use them as needed and do not redefine them.
+<function>
+def execute_sql_query(sql_query: str) -> pd.DataFrame
+    """This method connects to the database, executes the sql query and returns the dataframe"""
+</function>
+
+
+The user asked the following question:
+### QUERY
+ Create a graph of top selling products
+
+You generated the following Python code:
+None
+
+However, it resulted in the following error:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+
+Fix the python code above and return the new python code but the code generated should use execute_sql_query function
+2026-03-05 21:53:44 [INFO] An error occurred during code generation: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2026-03-05 21:53:44 [INFO] Stack Trace:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:44 [INFO] Retrying Code Generation (2/3)...
+2026-03-05 21:53:44 [INFO] Execution failed with error: Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:44 [INFO] Using Prompt: <table dialect="duckdb" table_name="table_689b7878a48c84ec31beda69620855b7" columns="[{"name": "product_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "title", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "brand", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "image", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "url", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "currency", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "original_price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "discount", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "sold", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "rating", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "reviews", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "seller_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "shop_name", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "slug", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_query", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_page", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "found_at", "type": "string", "description": null, "expression": null, "alias": null}]" dimensions="527x18">
+product_id,title,brand,image,url,currency,price,original_price,discount,sold,rating,reviews,seller_id,shop_name,slug,search_query,search_page,found_at
+1731312906191802630,"HTC NE20 Bluetooth 6.0 Earphones LED Display High Fidelity Waterproof Wireless Earphones | Suitable for Office, Sports, Study and Audio Calls | Built-in Microphone | Earphones",hTC,https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f5188525949c4ad7a6daa9e105d3189d~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/htc-ne20-earphones-bluetooth-5-4-waterproof-led-display/1731312906191802630,$,19.99,68.0,70%,167377,4.3,16379,7495396376762026246,Top Music.Audio,htc-ne20-earphones-bluetooth-5-4-waterproof-led-display,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1731051736301277466,"HYUNDAI Earclip C7 Clip-on Design Wireless Earphones, Upgraded Panoramic Sound Headset, Comfortable Wearing & IPX5 Waterproof Sports Earbuds for Work, Fitness",Hyundai,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/68858de4f95d46d88e988e5cd5d24768~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort/1731051736301277466,$,6.99,,,4908,4.2,554,7495975581302688026,Hyundai Accessory Store,wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1729397279735780001,JLab GO POP+ True Wireless Earbuds with 35+ Hour Playtime Dual Connect IPX4 Sweatproof Fast Charge 10 Minutes for 1+ Hour Playtime Rechargeable Bluetooth 5.3 Headset,JLAB,https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/5255aa5cdf2b45509aa86abfe794e0dd~tplv-fhlh96nyum-crop-webp:4000:4000.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94…,https://www.tiktok.com/shop/pdp/jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect/1729397279735780001,$,19.98,29.99,33%,69033,4.6,13125,7495182113810385569,JLab,jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732277328704934737,"Earbuds In Ear Wireless Bluetooth Headphones Noise Cancelling,Sound Optimization, Redesigned Comfort with Charging Case Fit for Sports Gym Workout",,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2a3934b039ee44fba6edc097fbf31c93~tplv-fhlh96nyum-crop-webp:799:600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof/1732277328704934737,$,39.99,,,0,0.0,0,7495810518815837009,jinguang inc,lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732275322245124413,Q71 TWS  Earphones Bluetooth 5.3 Earbuds Clip on Ear Comfortable Sport Digital Display Headsets,Ankriyul,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/bf3ff231c386433ead9a513b6cf5e542~tplv-fhlh96nyum-crop-webp:1600:1600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=948…,https://www.tiktok.com/shop/pdp/q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready/1732275322245124413,$,7.79,,,65,0.0,0,7495919760941484349,Ankriyul Local,q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+</table>
+
+
+The following functions have already been provided. Please use them as needed and do not redefine them.
+<function>
+def execute_sql_query(sql_query: str) -> pd.DataFrame
+    """This method connects to the database, executes the sql query and returns the dataframe"""
+</function>
+
+
+The user asked the following question:
+### QUERY
+ Create a graph of top selling products
+
+You generated the following Python code:
+None
+
+However, it resulted in the following error:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+
+Fix the python code above and return the new python code but the code generated should use execute_sql_query function
+2026-03-05 21:53:44 [INFO] An error occurred during code generation: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2026-03-05 21:53:44 [INFO] Stack Trace:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:44 [INFO] Retrying Code Generation (3/3)...
+2026-03-05 21:53:44 [INFO] Execution failed with error: Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:44 [INFO] Using Prompt: <table dialect="duckdb" table_name="table_689b7878a48c84ec31beda69620855b7" columns="[{"name": "product_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "title", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "brand", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "image", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "url", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "currency", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "original_price", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "discount", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "sold", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "rating", "type": "float", "description": null, "expression": null, "alias": null}, {"name": "reviews", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "seller_id", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "shop_name", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "slug", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_query", "type": "string", "description": null, "expression": null, "alias": null}, {"name": "search_page", "type": "integer", "description": null, "expression": null, "alias": null}, {"name": "found_at", "type": "string", "description": null, "expression": null, "alias": null}]" dimensions="527x18">
+product_id,title,brand,image,url,currency,price,original_price,discount,sold,rating,reviews,seller_id,shop_name,slug,search_query,search_page,found_at
+1731312906191802630,"HTC NE20 Bluetooth 6.0 Earphones LED Display High Fidelity Waterproof Wireless Earphones | Suitable for Office, Sports, Study and Audio Calls | Built-in Microphone | Earphones",hTC,https://p19-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/f5188525949c4ad7a6daa9e105d3189d~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/htc-ne20-earphones-bluetooth-5-4-waterproof-led-display/1731312906191802630,$,19.99,68.0,70%,167377,4.3,16379,7495396376762026246,Top Music.Audio,htc-ne20-earphones-bluetooth-5-4-waterproof-led-display,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1731051736301277466,"HYUNDAI Earclip C7 Clip-on Design Wireless Earphones, Upgraded Panoramic Sound Headset, Comfortable Wearing & IPX5 Waterproof Sports Earbuds for Work, Fitness",Hyundai,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/68858de4f95d46d88e988e5cd5d24768~tplv-fhlh96nyum-crop-webp:800:800.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort/1731051736301277466,$,6.99,,,4908,4.2,554,7495975581302688026,Hyundai Accessory Store,wireless-earphones-hyundai-c7-panoramic-sound-ipx5-waterproof-zero-weight-comfort,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1729397279735780001,JLab GO POP+ True Wireless Earbuds with 35+ Hour Playtime Dual Connect IPX4 Sweatproof Fast Charge 10 Minutes for 1+ Hour Playtime Rechargeable Bluetooth 5.3 Headset,JLAB,https://p16-oec-general-useast8.ttcdn-us.com/tos-useast8-i-rt0ujvrtvp-tx2/5255aa5cdf2b45509aa86abfe794e0dd~tplv-fhlh96nyum-crop-webp:4000:4000.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94…,https://www.tiktok.com/shop/pdp/jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect/1729397279735780001,$,19.98,29.99,33%,69033,4.6,13125,7495182113810385569,JLab,jlab-go-pop-true-wireless-earbuds-with-35-hour-playtime-dual-connect,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732277328704934737,"Earbuds In Ear Wireless Bluetooth Headphones Noise Cancelling,Sound Optimization, Redesigned Comfort with Charging Case Fit for Sports Gym Workout",,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/2a3934b039ee44fba6edc097fbf31c93~tplv-fhlh96nyum-crop-webp:799:600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=94867…,https://www.tiktok.com/shop/pdp/lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof/1732277328704934737,$,39.99,,,0,0.0,0,7495810518815837009,jinguang inc,lunani-earbuds-wireless-bluetooth-noise-cancelling-sweatproof,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+1732275322245124413,Q71 TWS  Earphones Bluetooth 5.3 Earbuds Clip on Ear Comfortable Sport Digital Display Headsets,Ankriyul,https://p16-oec-general-useast5.ttcdn-us.com/tos-useast5-i-omjb5zjo8w-tx/bf3ff231c386433ead9a513b6cf5e542~tplv-fhlh96nyum-crop-webp:1600:1600.webp?dr=12190&t=555f072d&ps=933b5bde&shp=8dbd94bf&shcp=948…,https://www.tiktok.com/shop/pdp/q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready/1732275322245124413,$,7.79,,,65,0.0,0,7495919760941484349,Ankriyul Local,q71-tws-earphones-bluetooth-5-3-clip-on-design-sports-ready,wireless earbuds,1,2026-03-05T05:28:23.081639531Z
+</table>
+
+
+The following functions have already been provided. Please use them as needed and do not redefine them.
+<function>
+def execute_sql_query(sql_query: str) -> pd.DataFrame
+    """This method connects to the database, executes the sql query and returns the dataframe"""
+</function>
+
+
+The user asked the following question:
+### QUERY
+ Create a graph of top selling products
+
+You generated the following Python code:
+None
+
+However, it resulted in the following error:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 176, in generate_code_with_retries
+    return self.generate_code(query)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/agent/base.py", line 119, in generate_code
+    code = self._code_generator.generate_code(prompt)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 52, in generate_code
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+
+Fix the python code above and return the new python code but the code generated should use execute_sql_query function
+2026-03-05 21:53:45 [INFO] An error occurred during code generation: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+2026-03-05 21:53:45 [INFO] Stack Trace:
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 845, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 773, in completion
+    ) = self.make_sync_openai_chat_completion_request(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/logging_utils.py", line 344, in sync_wrapper
+    result = func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 502, in make_sync_openai_chat_completion_request
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 477, in make_sync_openai_chat_completion_request
+    raw_response = openai_client.chat.completions.with_raw_response.create(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_legacy_response.py", line 367, in wrapped
+    return cast(LegacyAPIResponse[R], func(*args, **kwargs))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_utils/_utils.py", line 286, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/resources/chat/completions/completions.py", line 1204, in create
+    return self._post(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1297, in post
+    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/openai/_base_client.py", line 1070, in request
+    raise self._make_status_error_from_response(err.response) from None
+openai.AuthenticationError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2609, in completion
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 2581, in completion
+    response = openai_chat_completions.completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/llms/openai/openai.py", line 856, in completion
+    raise OpenAIError(
+litellm.llms.openai.common_utils.OpenAIError: Error code: 401 - {'error': {'message': 'The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.', 'type': 'invalid_request_error', 'code': 'account_deactivated', 'param': None}, 'status': 401}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/core/code_generation/base.py", line 33, in generate_code
+    code = self._context.config.llm.generate_code(prompt, self._context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai/llm/base.py", line 173, in generate_code
+    response = self.call(instruction, context)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/pandasai_litellm/litellm.py", line 68, in call
+    completion(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1749, in wrapper
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/utils.py", line 1570, in wrapper
+    result = original_function(*args, **kwargs)
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/main.py", line 4320, in completion
+    raise exception_type(
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 2398, in exception_type
+    raise e
+  File "/opt/anaconda3/envs/transformer_env/lib/python3.10/site-packages/litellm/litellm_core_utils/exception_mapping_utils.py", line 451, in exception_type
+    raise BadRequestError(
+litellm.exceptions.BadRequestError: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
+
+2026-03-05 21:53:45 [INFO] Maximum retry attempts exceeded. Last error: litellm.BadRequestError: OpenAIException - The OpenAI account associated with this API key has been deactivated. If you are the developer for this OpenAI app, please check your email for more information. If you are seeing this error while using another app or site, please reach out to them for more help.
